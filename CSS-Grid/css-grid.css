@@ -1,0 +1,57 @@
+.pagina{
+    background-color: #333;
+    border: 2px solid red;
+    padding: 15px;
+    display: grid;
+    gap: 5px;
+    grid-template-areas: 
+    'header header header'
+    'sidebar content content'
+    'footer footer footer';
+}
+
+
+.pagina div{
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid blue;
+
+}
+
+#header{
+grid-area: header;
+}
+
+#content{
+grid-area: content;
+}
+
+#sidebar{
+grid-area: sidebar;
+}
+
+#footer{
+grid-area: footer;
+}
+
+/* MESMO CONTAINER CONSTRUÍDO COM FLEXBOX */
+
+.contaner{
+    margin-top: 15px;
+    background-color: #333;
+    border: 2px solid red;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contaner div{
+
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid blue;
+    width: 256px;
+    height: 8vh;
+    flex-wrap: wrap;
+}
