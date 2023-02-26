@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+body{
+    background-color: whitesmoke;
+}
+
+.main{
+    display: grid;
+    justify-content: space-around;
+    grid-template-areas:
+    'header header header'
+    'menu main main '
+    'menu main main '
+    'menu main main '
+    'menu main main '
+    'footer footer footer';
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: rgb(67, 55, 55);
+    height: 80px;
+    width: 100%;
+    margin-bottom: 40px;
+    grid-area: header;
+    justify-content:space-between;
+}
+
+#links p{
+    color: rgb(183, 180, 176);
+    padding-right: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+input{
+    width: 600px;    
+    height: 30px;
+    border-radius: 0px;
+}
+
+#links{
+    justify-content: flex-end;
+    justify-content: space-around;
+}
+a, h1{
+    padding:10px;
+    font-size: 20px;
+    color: azure;
+}
+
+.menu a {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    color: rgb(67, 55, 55);
+    font-size:15px;
+}
+
+.secoes{
+    margin-bottom: 20px;
+}
+.secoes p{
+    color:rgb(67, 55, 55);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.grid-container{
+ display: grid;
+ justify-content: center;
+ column-gap: 100px;
+ grid-template-columns: auto auto auto ;
+ row-gap: 10px;
+ grid-area: main;
+ margin-bottom: 80px;
+}
+
+.menu{
+    padding-left: 50px;
+    margin-right: -150px;
+    grid-area: menu;
+}
+
+#grid-item {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 5px solid rgba(80, 63, 63, 0.211);
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 30px;
+    align-items: center;
+  }
+
+.grid-container p {
+    margin-top: 10px;
+    display:flex;
+    width: 200px;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(67, 65, 65);
+}
+
+#preco{
+ color: rgb(127, 101, 101);
+}
+
+img{
+    width: 150px;
+}
+
+footer{
+    height: 60px;
+    background-color: rgb(51, 37, 37);
+    display: flex;
+    align-items: center;
+    grid-area: header;
+    justify-content: flex-end;
+}

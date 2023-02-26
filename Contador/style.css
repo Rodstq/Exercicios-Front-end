@@ -1,0 +1,15 @@
+
+
+.container{
+    padding-top: 200px;
+    display: grid;
+    place-items: center;
+    align-self: center;
+    justify-self: center;
+    grid-row-start: 4;
+    grid-template-rows: 100px 50px 100px;
+}
+
+#value{
+    font-size: 55px;
+}

@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    padding-top: 200px;
+    }
+
+#geral{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color:rgb(255, 0, 0);
+}
+#btn{
+
+    background-color:rgb(255, 0, 0);
+    color:rgb(0, 0, 0);
+    margin: 40px 0px 20px 0px;
+    padding: 5px;
+    width: 100px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 200px;
+    color: red;
+    border: 0.5px dotted red;
+    height: 25px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+

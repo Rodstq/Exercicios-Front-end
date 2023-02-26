@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="submit" value=" ERASE TEXT " class="text">
+
+    <input type="submit" value="criar outro botão" class="criar">
+    
+    
+
+
+
+    <script>
+
+     var botao = document.querySelector('.criar');
+     var buton;
+
+     function novoBotao(){
+       buton = document.createElement('button');
+       buton.className="criar";
+       buton.textContent = 'criar outro botão';       
+       document.body.append(buton);
+       buton.addEventListener('click', novoBotao);
+     }
+
+     botao.addEventListener('click', novoBotao);
+
+     function rmText(){       
+
+         buton.textContent = '';      
+        
+     }
+     
+     text.addEventListener('click', rmText);
+
+
+    </script>
+</body>
+</html>
