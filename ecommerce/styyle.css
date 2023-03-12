@@ -123,6 +123,9 @@ footer{
     justify-content: flex-end;
 }*/
 
+*{
+    margin:0px;
+}
 
 header{
     display: flex;
